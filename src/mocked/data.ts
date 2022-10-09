@@ -1,0 +1,66 @@
+export interface IData {
+    id: number;
+    img: string;
+    title: string;
+    price: number;
+    rank: number;
+}
+
+export const data = [
+{   id: 1,
+    img: 'img/card_01.svg',
+    title: 'Apple BYZ S852I',
+    rank: 4.7,
+    price: 2927,
+},
+{   id: 2,
+    img: 'img/card_02.svg',
+    title: 'Apple EarPods',
+    rank: 4.5,
+    price: 2327,
+},
+{   id: 3,
+    img: 'img/card_03.svg',
+    title: 'Apple EarPods',
+    rank: 4.5,
+    price: 2327,
+},
+{   id: 4,
+    img: 'img/card_01.svg',
+    title: 'Apple BYZ S852I',
+    rank: 4.7,
+    price: 2927,
+},
+
+
+{   id: 5,
+    img: 'img/card_02.svg',
+    title: 'Apple EarPods',
+    rank: 4.5,
+    price: 2327,
+},
+{   id: 6,
+    img: 'img/card_03.svg',
+    title: 'Apple EarPods',
+    rank: 4.5,
+    price: 2327,
+},
+{   id: 7,
+    img: 'img/card_04.svg',
+    title: 'Apple AirPods',
+    rank: 4.7,
+    price: 9527,
+},
+{   id: 8,
+    img: 'img/card_05.svg',
+    title: 'GERLAX GH-04',
+    rank: 4.7,
+    price: 6527,
+},
+{   id: 9,
+    img: 'img/card_06.svg',
+    title: 'BOROFONE BO4',
+    rank: 4.7,
+    price: 7527,
+},
+]

@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.card_wrapper {
+
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+}
+.card {
+    width: 350px;
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    border-radius: 30px;
+    /* padding: 26px 0 0 0; */
+
+}
+.flex_space_btwn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 21px;
+    padding: 0 22px 26px 22px;
+}
+
+.img{
+    width: 219.61px;
+    height: 237.07px;
+    align-self: center;
+    float: left;
+}
+
+.card_price {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFA542;
+}
+.card_name {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #1C1C27;
+}
+.card_rank {
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+   
+}
+.active_btn {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+}
+.active_btn:active {
+    color: #FFA542;
+}

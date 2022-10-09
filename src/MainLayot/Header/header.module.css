@@ -1,0 +1,52 @@
+h1 {
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+color: #101010;
+}
+.header {
+    /* margin: 0 auto; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* left: 168px;
+    margin-bottom: 87px; */
+    
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+.icons {
+  margin-top: 20px;
+  margin-right: 18px;
+
+}
+link {
+    text-decoration: none;
+}
+
+.full_basket {
+     /* background-image: url(../../../public/img/icon.svg); */
+     background-color: #FFA542;
+     position: absolute;
+     left: 98%;
+     right: -0.27%;
+     top: 21.67%;
+     bottom: 49.33%;
+     width: 17.4px;
+     height: 17.4px;
+     border-radius: 80%;
+     text-align: center;
+     color: white;
+     font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
